@@ -1,13 +1,15 @@
 
-import Button from './components/Button';
-import ThemeChanger from "./components/ThemeChanger";
 import ThemeProvider from "./context/ThemeContext";
+import Dashboard from './components/Dashboard'
+import Main from './components/Main'
 
 function App() {
   return (
     <ThemeProvider>
-      <ThemeChanger/>
-      <Button />
+      <div className="flex">
+        <Dashboard />
+        <Main />
+      </div>
     </ThemeProvider>
   );
 }

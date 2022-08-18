@@ -41,7 +41,11 @@ module.exports = {
             return `rgb(var(--color-custom-400))`;
           },
         },
+        'dark': '#0F2837'
       },
+      boxShadow: {
+        'sidebar': 'inset 0px 4px 4px rgba(0, 0, 0, 0.25)'
+      }
     },
   },
 }

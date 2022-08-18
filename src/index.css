@@ -2,23 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.theme-racing-green {
-    --color-custom-100: 41, 89, 57;
-    --color-custom-200: 233, 176, 223;
+.theme-orange {
+    --color-custom-100: 235, 90, 60;
+    --color-custom-200: 0px 0px 24px #EB5A3C;
     --color-custom-300: 173, 238, 207;
     --color-custom-400: 232, 239, 235;
-}
-
-.theme-dark {
-    --color-custom-100: 48, 56, 65;
-    --color-custom-200: 46, 71, 80;
-    --color-custom-300: 246, 201, 14;
-    --color-custom-400: 247, 247, 247;
-}
-
-.theme-monzo {
-    --color-custom-100: 221, 221, 221;
-    --color-custom-200: 34, 40, 49;
-    --color-custom-300: 48, 71, 94;
-    --color-custom-400: 240, 84, 84;
 }
