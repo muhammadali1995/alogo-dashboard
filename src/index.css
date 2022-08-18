@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .theme-racing-green {
+.theme-racing-green {
     --color-custom-100: 41, 89, 57;
     --color-custom-200: 233, 176, 223;
     --color-custom-300: 173, 238, 207;
@@ -21,4 +21,4 @@
     --color-custom-200: 34, 40, 49;
     --color-custom-300: 48, 71, 94;
     --color-custom-400: 240, 84, 84;
-} */
+}

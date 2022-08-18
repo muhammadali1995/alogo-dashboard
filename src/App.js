@@ -1,19 +1,14 @@
-import { createContext, useState } from 'react';
-import Button from './components/Button';
 
-export const ThemeContext = createContext();
+import Button from './components/Button';
+import ThemeChanger from "./components/ThemeChanger";
+import ThemeProvider from "./context/ThemeContext";
 
 function App() {
-  const [theme, setTheme] = useState('theme-racing-green');
-
-  const defaultContext = {
-    theme,
-    setTheme,
-  };
   return (
-    <ThemeContext.Provider value={defaultContext}>
+    <ThemeProvider>
+      <ThemeChanger/>
       <Button />
-    </ThemeContext.Provider>
+    </ThemeProvider>
   );
 }
 

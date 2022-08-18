@@ -1,11 +1,10 @@
 import React, { useContext } from 'react'
-import { ThemeContext } from './../App'
+import { ThemeContext } from "../context/ThemeContext"
 
 export default function Button() {
-    const { theme } = useContext(ThemeContext)
-    console.log(theme)
+    const {theme} = useContext(ThemeContext)
     return (
-        <button className={"rounded-md bg-secondary text-text-base px-3 py-1 " + theme}>
+        <button className={`${theme} rounded-md  text-custom-400 p-3 border`}>
             children
         </button>
     )
