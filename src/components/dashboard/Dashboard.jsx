@@ -4,7 +4,7 @@ import lines from './../../assets/lines.png'
 import { useState } from 'react'
 import Link from './Link'
 import { navigations } from './../../data/data'
-import menu from './../../assets/arrow.svg'
+import menu from './../../assets/menu.jpg'
 
 export default function Dashboard() {
   const [active, setActive] = useState('Dashboard')
@@ -21,7 +21,7 @@ export default function Dashboard() {
         </div>
         <img className='mt-20 w-10 hidden lg:block' src={lines} alt="lines" />
         <button onClick={() => setMenuOpen(!menuOpen)}>
-          <img src={menu} alt="menu" />
+          <img src={menu} alt="menu" className='w-8' />
         </button>
       </div>
       <div className={`lg:hidden bg-white absolute z-50 top-16 shadow-xl flex-col items-center justify-center left-0 w-fill ` + (menuOpen ? 'flex' : '!hidden')}>
