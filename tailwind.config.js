@@ -41,10 +41,25 @@ module.exports = {
             return `rgb(var(--color-custom-400))`;
           },
         },
-        'dark': '#0F2837'
+        'dark': '#0F2837',
+        'gray': '#CFD4D7',
+        'green': '#9BC368'
       },
       boxShadow: {
-        'sidebar': 'inset 0px 4px 4px rgba(0, 0, 0, 0.25)'
+        'sidebar': 'inset 0px 4px 4px rgba(0, 0, 0, 0.25)',
+        'date': '0px 0px 40px -4px rgba(15, 40, 55, 0.1)',
+        'card': '0px 4px 40px rgba(15, 40, 55, 0.1)',
+        'card-button': ' 0px 0px 24px -8px #6E1946'
+      },
+      borderWidth: {
+        0.2: '0.2px'
+      },
+      fontSize: {
+        18: '18px',
+        10: '10px'
+      },
+      width: {
+        'fill': '-webkit-fill-available'
       }
     },
   },

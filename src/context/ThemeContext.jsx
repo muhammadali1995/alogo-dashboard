@@ -3,7 +3,8 @@ import { createContext, React, useState } from 'react';
 export const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
-    const storedColour = (localStorage.getItem('theme')) ? (localStorage.getItem('theme')) : 'theme-orange';
+    const localTheme = JSON.parse(localStorage.getItem('theme'))
+    const storedColour = localTheme ? localTheme : 'theme-outrageous-orange';
     const [theme, setTheme] = useState(storedColour);
 
     const defaultContext = {
