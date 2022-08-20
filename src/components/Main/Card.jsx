@@ -8,13 +8,13 @@ export default function Card({ card }) {
   const { btnImg, name, title, date, user } = card
   const { theme } = useContext(ThemeContext)
   return (
-    <div className={`${theme} card bg-white shadow-card rounded-xl p-4 hover:bg-custom-100 hover:-translate-y-3 relative cursor-pointer`}>
+    <div className={`${theme} card bg-white shadow-card rounded-xl p-4 hover:bg-custom-100 hover:-translate-y-3 text-dark hover:text-custom-300 relative cursor-pointer`}>
       <img src={lines} alt="lines" className='absolute w-auto -top-4 right-8 rotate-90 h-11' />
-      <div className={`rounded card-btn shadow-card-button w-10 h-10 flex items-center justify-center ${theme} bg-custom-100`}>
-        <img src={btnImg} alt="not found" className='text-white' />
+      <div className={`rounded card-btn text-white shadow-card-button w-10 h-10 flex items-center justify-center ${theme} bg-custom-100`}>
+        {btnImg}
       </div>
       <h3 className={`${theme} text-custom-100 mt-2 font-bold text-2xl leading-7 card-title`}>{name}</h3>
-      <h4 className={`${theme} mt-1.5 font-bold text-18 text-dark leading-5 card-subtitle`}>{title}</h4>
+      <h4 className={`${theme} mt-1.5 font-bold text-18  leading-5`}>{title}</h4>
       <div className='flex items-start text-green font-normal text-xs mt-1'>
         <img src={arrow} alt="arrow" />
         <div>

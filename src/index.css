@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('./font.css');
+
 .theme-outrageous-orange {
   --color-custom-100: 235, 90, 60;
   --color-custom-200: 0px 0px 24px #eb5a3c;
@@ -19,15 +21,19 @@
 .theme-pompadour {
   --color-custom-100: 110, 25, 70;
   --color-custom-200: -4px 0px 24px #6e1946;
-  --color-custom-300: white;
+  --color-custom-300: 255, 255, 255;
   --color-custom-400: 226, 209, 218;
 }
 
 .theme-tangaroa {
   --color-custom-100: 15, 40, 55;
   --color-custom-200: -4px 0px 24px #0f2837;
-  --color-custom-300: white;
+  --color-custom-300: 255, 255, 255;
   --color-custom-400: 207, 212, 215;
+}
+
+body {
+  font-family: effra-bold, sans-serif;
 }
 
 @layer base {
@@ -40,11 +46,7 @@
   }
 
   .card:hover .user {
-    @apply !text-white;
-  }
-
-  .card:hover .card-subtitle {
-    @apply !text-custom-300;
+    @apply  !text-white;
   }
 }
 
