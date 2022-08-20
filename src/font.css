@@ -5,10 +5,10 @@
 
 @font-face {
     font-family: 'effra-regular';
-    src: url('./assets/font/Effra_Std_Bd.ttf');
+    src: url('./assets/font/Effra_Std_Rg.ttf');
 }
 
 @font-face {
     font-family: 'effra-light';
-    src: url('./assets/font/Effra_Std_Bd.ttf');
+    src: url('./assets/font/Effra_Std_Lt.ttf');
 }

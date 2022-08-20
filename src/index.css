@@ -56,6 +56,10 @@ body {
   .card:hover .user {
     @apply  !text-white;
   }
+
+  .card:hover .subtitle {
+    @apply !text-custom-300
+  }
 }
 
 .recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child {

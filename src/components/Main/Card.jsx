@@ -19,7 +19,7 @@ export default function Card({ card }) {
         <img src={arrow} alt="arrow" />
         <div>
           <p className='ml-1 user leading-3'>{date}</p>
-          <p className='xl:ml-1 text-dark text-10 mt-1 -ml-3'>{user}</p>
+          <p className={`${theme} xl:ml-1 text-dark text-10 mt-1 -ml-3 subtitle`}>{user}</p>
         </div>
       </div>
     </div>
