@@ -31,7 +31,26 @@ export const badges = [
 ]
 
 export const navigations = [
-    { name: 'Dashboard', icon: 'fas fa-house' },
+    {
+        name: 'Dashboard', icon: <svg width="50" height="52" viewBox="0 0 50 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_44_2049)">
+                <path d="M17.5 23.5L25 17.6667L32.5 23.5V32.6667C32.5 33.1087 32.3244 33.5326 32.0118 33.8452C31.6993 34.1577 31.2754 34.3333 30.8333 34.3333H19.1667C18.7246 34.3333 18.3007 34.1577 17.9882 33.8452C17.6756 33.5326 17.5 33.1087 17.5 32.6667V23.5Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M22.5 34.3333V26H27.5V34.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </g>
+            <defs>
+                <filter id="filter0_d_44_2049" x="0.75" y="0.916656" width="48.5" height="50.1667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="8" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.921569 0 0 0 0 0.352941 0 0 0 0 0.235294 0 0 0 0.5 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_44_2049" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_44_2049" result="shape" />
+                </filter>
+            </defs>
+        </svg>
+    },
     { name: 'Users', icon: 'fas fa-users' },
     { name: 'Badges', icon: 'fas fa-house' },
     { name: 'Rewards', icon: 'fas fa-house' },
