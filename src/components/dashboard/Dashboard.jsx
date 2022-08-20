@@ -24,7 +24,7 @@ export default function Dashboard() {
           <img src={menu} alt="menu" className='w-8' />
         </button>
       </div>
-      <div className={`lg:hidden bg-white absolute z-50 top-16 shadow-xl flex-col items-center justify-center left-0 w-fill ` + (menuOpen ? 'flex' : '!hidden')}>
+      <div className={`lg:hidden bg-white absolute z-50 top-16 shadow-xl flex-col items-start left-0 w-fill ` + (menuOpen ? 'flex' : '!hidden')}>
         {navigations.map((link, index) => {
           return <Link key={index} link={link} active={active} setActive={setActive} />
         })}
