@@ -2,9 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-.theme-orange {
+.theme-outrageous-orange {
     --color-custom-100: 235, 90, 60;
     --color-custom-200: 0px 0px 24px #EB5A3C;
-    --color-custom-300: 173, 238, 207;
-    --color-custom-400: 232, 239, 235;
+    --color-custom-300: #0F2837;
+}
+
+.theme-carrot-orange {
+    --color-custom-100: 255, 182, 94;
+    --color-custom-200: 0px 0px 24px #FFB65E;
+    --color-custom-300: #0F2837;
+}
+
+.theme-pompadour {
+    --color-custom-100: 110, 25, 70;
+    --color-custom-200: -4px 0px 24px #6E1946;
+    --color-custom-300: white;
+}
+
+.theme-tangaroa {
+    --color-custom-100: 15, 40, 55;
+    --color-custom-200: -4px 0px 24px #0F2837;
+    --color-custom-300: white;
+}
+
+@layer base {
+    .card:hover .card-btn {
+        @apply bg-white text-custom-100
+    }
+
+    .card:hover .card-title {
+        @apply text-white
+    }
+
+    .card:hover .user {
+        @apply  !text-white
+    }
+
+    .card:hover .card-subtitle {
+        @apply !text-custom-300
+    }
 }

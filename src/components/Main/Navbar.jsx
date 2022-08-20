@@ -1,16 +1,16 @@
 import React from 'react'
-import search from './../assets/search.svg'
-import dot from './../assets/dot.svg'
-import mail from './../assets/mail.svg'
-import notification from './../assets/notification.svg'
-import user from './../assets/user.svg'
+import search from './../../assets/search.svg'
+import dot from './../../assets/dot.svg'
+import mail from './../../assets/mail.svg'
+import notification from './../../assets/notification.svg'
+import user from './../../assets/user.svg'
 import { useContext } from 'react'
-import { ThemeContext } from './../context/ThemeContext'
+import { ThemeContext } from '../../context/ThemeContext'
 
 export default function Navbar() {
     const { theme } = useContext(ThemeContext)
     return (
-        <form className='flex items-center w-full justify-between py-8 px-5'>
+        <form className='items-center w-full justify-between py-8 px-5 border-b-0.2 border-b-gray hidden md:flex'>
             <div className='flex items-center w-fit'>
                 <img src={search} alt="search" />
                 <input
@@ -20,15 +20,15 @@ export default function Navbar() {
                 />
             </div>
             <div className='flex items-center'>
-                <div className='relative'>
+                <div className='relative cursor-pointer'>
                     <img src={dot} alt="dot" className='absolute -top-1 -right-1' />
                     <img src={mail} alt="mail" />
                 </div>
-                <div className='relative ml-4'>
+                <div className='relative ml-4 cursor-pointer'>
                     <img src={dot} alt="dot" className='absolute -top-1 -right-1' />
                     <img src={notification} alt="notification" />
                 </div>
-                <div className='flex items-center'>
+                <div className='flex items-center cursor-pointer'>
                     <img src={user} alt="user" className='rounded-full ml-5' />
                     <h5 className='text-sm font-bold ml-2'>Mohammed Abdullah</h5>
                     <i className={`${theme} fa-solid fa-sort-down text-custom-100 -mt-2 ml-2`}></i>

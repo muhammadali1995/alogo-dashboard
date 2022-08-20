@@ -1,12 +1,14 @@
 
 import ThemeProvider from "./context/ThemeContext";
-import Dashboard from './components/Dashboard'
-import Main from './components/Main'
+import Dashboard from './components/dashboard/Dashboard'
+import Main from './components/Main/Main'
+import ThemeChanger from './components/Main/ThemeChanger'
 
 function App() {
   return (
     <ThemeProvider>
-      <div className="flex">
+      <ThemeChanger />
+      <div className="lg:flex max-w-[1440px] mx-auto">
         <Dashboard />
         <Main />
       </div>
