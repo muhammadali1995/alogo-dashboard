@@ -1,4 +1,14 @@
-@font-face{
+@font-face {
     font-family: 'effra-bold';
+    src: url('./assets/font/Effra_Std_Bd.ttf');
+}
+
+@font-face {
+    font-family: 'effra-regular';
+    src: url('./assets/font/Effra_Std_Bd.ttf');
+}
+
+@font-face {
+    font-family: 'effra-light';
     src: url('./assets/font/Effra_Std_Bd.ttf');
 }

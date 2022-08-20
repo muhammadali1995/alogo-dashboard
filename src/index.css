@@ -33,7 +33,15 @@
 }
 
 body {
+  font-family: effra-regular, sans-serif;
+}
+
+.font-bold {
   font-family: effra-bold, sans-serif;
+}
+
+.font-normal {
+  font-family: effra-light, sans-serif;
 }
 
 @layer base {
