@@ -1,8 +1,8 @@
-import usersImg from './../../assets/users.svg'
-import decrase from './../../assets/decrase.svg'
-import badge from './../../assets/badge.svg'
-import reward from './../../assets/reward.svg'
-import point from './../../assets/point.svg'
+import usersImg from './../assets/users.svg'
+import decrase from './../assets/decrase.svg'
+import badge from './../assets/badge.svg'
+import reward from './../assets/reward.svg'
+import point from './../assets/point.svg'
 
 export const users = [
     { name: 'Mohammed Abdullah', pt: '5,000pt', badge: '29 Badge', reward: '5 Rewards' },
@@ -36,4 +36,82 @@ export const navigations = [
     { name: 'Tickets', icon: 'fas fa-house' },
     { name: 'Systems', icon: 'fas fa-house' },
     { name: 'Settings', icon: 'fas fa-house' }
+]
+
+export const TotalRegisteredUsers = [
+    {
+        name: 'Jan',
+        count: 123,
+    },
+    {
+        name: 'Feb',
+        count: 50,
+    },
+    {
+        name: 'Mar',
+        count: 250,
+    },
+    {
+        name: 'Apr',
+        count: 175,
+    },
+    {
+        name: 'May',
+        count: 175,
+    },
+    {
+        name: 'Jun',
+        count: 275,
+    },
+    {
+        name: 'Jul',
+        count: 180,
+    },
+    {
+        name: 'Aug',
+        count: 100,
+    },
+    {
+        name: 'Sep',
+        count: 150,
+    },
+    {
+        name: 'Oct',
+        count: 250,
+    },
+    {
+        name: 'Nov',
+        count: 200,
+    },
+    {
+        name: 'Dec',
+        count: 120,
+    },
+];
+
+export const UserStatisticsData = [
+    {
+        name: 'Total Users',
+        count: 100000,
+    },
+    {
+        name: 'Active Users',
+        count: 75000,
+    },
+    {
+        name: 'Inactive Users',
+        count: 50000,
+    },
+    {
+        name: 'Users with Badges',
+        count: 20000,
+    },
+    {
+        name: 'User with Rewards',
+        count: 10000,
+    },
+    {
+        name: 'Blacklistde Users',
+        count: 500,
+    },
 ]

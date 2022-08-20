@@ -5,7 +5,7 @@ import Card from './Card'
 import plus from './../../assets/plus.svg'
 import UserCard from './UserCard'
 import Badge from './Badge'
-import { badges, cards, users } from './../data/data'
+import { badges, cards, users } from './../../data/data'
 
 export default function MainSection() {
   const { theme } = useContext(ThemeContext)

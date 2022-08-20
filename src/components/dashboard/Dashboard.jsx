@@ -3,7 +3,7 @@ import logo from './../../assets/logo.png'
 import lines from './../../assets/lines.png'
 import { useState } from 'react'
 import Link from './Link'
-import { navigations } from './../data/data'
+import { navigations } from './../../data/data'
 import menu from './../../assets/arrow.svg'
 
 export default function Dashboard() {

@@ -3,43 +3,47 @@
 @tailwind utilities;
 
 .theme-outrageous-orange {
-    --color-custom-100: 235, 90, 60;
-    --color-custom-200: 0px 0px 24px #EB5A3C;
-    --color-custom-300: #0F2837;
+  --color-custom-100: 235, 90, 60;
+  --color-custom-200: 0px 0px 24px #eb5a3c;
+  --color-custom-300: #0f2837;
+  --color-custom-400: 251, 222, 216;
 }
 
 .theme-carrot-orange {
-    --color-custom-100: 255, 182, 94;
-    --color-custom-200: 0px 0px 24px #FFB65E;
-    --color-custom-300: #0F2837;
+  --color-custom-100: 255, 182, 94;
+  --color-custom-200: 0px 0px 24px #ffb65e;
+  --color-custom-300: #0f2837;
+  --color-custom-400: 255, 234, 209;
 }
 
 .theme-pompadour {
-    --color-custom-100: 110, 25, 70;
-    --color-custom-200: -4px 0px 24px #6E1946;
-    --color-custom-300: white;
+  --color-custom-100: 110, 25, 70;
+  --color-custom-200: -4px 0px 24px #6e1946;
+  --color-custom-300: white;
+  --color-custom-400: 226, 209, 218;
 }
 
 .theme-tangaroa {
-    --color-custom-100: 15, 40, 55;
-    --color-custom-200: -4px 0px 24px #0F2837;
-    --color-custom-300: white;
+  --color-custom-100: 15, 40, 55;
+  --color-custom-200: -4px 0px 24px #0f2837;
+  --color-custom-300: white;
+  --color-custom-400: 207, 212, 215;
 }
 
 @layer base {
-    .card:hover .card-btn {
-        @apply bg-white text-custom-100
-    }
+  .card:hover .card-btn {
+    @apply bg-white text-custom-100;
+  }
 
-    .card:hover .card-title {
-        @apply text-white
-    }
+  .card:hover .card-title {
+    @apply text-white;
+  }
 
-    .card:hover .user {
-        @apply  !text-white
-    }
+  .card:hover .user {
+    @apply !text-white;
+  }
 
-    .card:hover .card-subtitle {
-        @apply !text-custom-300
-    }
+  .card:hover .card-subtitle {
+    @apply !text-custom-300;
+  }
 }
