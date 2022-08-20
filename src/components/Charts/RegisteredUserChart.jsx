@@ -29,8 +29,8 @@ export default function TotalRegisteredUsersChart({ header, className }) {
         <div className={className}>
             <div className="flex justify-between">
                 <h2 className="text-base font-bold text-dark mb-4 ml-2">{header}</h2>
-                <select className="text-10 p-2 h-7 bg-white shadow-[0px_0px_8px_rgba(15,40,55,0.05)]" name="months" id="month">
-                    <option disabled selected value=''>Months</option>
+                <select defaultValue={''} className="text-10 p-2 h-7 bg-white shadow-[0px_0px_8px_rgba(15,40,55,0.05)]" name="months" id="month">
+                    <option disabled value=''>Months</option>
                     <option value='1'>January</option>
                     <option value='2'>February</option>
                 </select>

@@ -47,3 +47,11 @@
     @apply !text-custom-300;
   }
 }
+
+.recharts-wrapper .recharts-cartesian-grid-horizontal line:last-child {
+  stroke-opacity: 0;
+}
+
+.recharts-wrapper .recharts-cartesian-grid-horizontal line:first-child {
+  stroke-opacity: 0;
+}
