@@ -3,6 +3,9 @@ import decrase from './../../assets/decrase.svg'
 import badge from './../../assets/badge.svg'
 import reward from './../../assets/reward.svg'
 import point from './../../assets/point.svg'
+import building from './../../assets/building.svg'
+import building2 from './../../assets/building2.svg'
+import building3 from './../../assets/building3.svg'
 
 export const users = [
     { name: 'Mohammed Abdullah', pt: '5,000pt', badge: '29 Badge', reward: '5 Rewards' },
@@ -36,4 +39,10 @@ export const navigations = [
     { name: 'Tickets', icon: 'fas fa-house' },
     { name: 'Systems', icon: 'fas fa-house' },
     { name: 'Settings', icon: 'fas fa-house' }
+]
+
+export const cities = [
+    { name: 'Riyadh', users: '250K Active Users', bgColor: 'bg-[#F5AD9E]', img: building },
+    { name: 'Jeddah', users: '150K Active Users', bgColor: 'bg-[#B78CA2]', img: building2 },
+    { name: 'Dammam', users: '50K Active Users', bgColor: 'bg-[#C8DCDA]', img: building3 },
 ]

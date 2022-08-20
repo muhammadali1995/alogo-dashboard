@@ -17,13 +17,13 @@
 .theme-pompadour {
     --color-custom-100: 110, 25, 70;
     --color-custom-200: -4px 0px 24px #6E1946;
-    --color-custom-300: white;
+    --color-custom-300: 255 255 255;
 }
 
 .theme-tangaroa {
     --color-custom-100: 15, 40, 55;
     --color-custom-200: -4px 0px 24px #0F2837;
-    --color-custom-300: white;
+    --color-custom-300: 255 255 255;
 }
 
 @layer base {
